@@ -1,7 +1,17 @@
-CREATE TABLE `tuser` (
-`id`  int NOT NULL ,
+CREATE TABLE `user` (
+`id`  int NOT NULL AUTO_INCREMENT,
 `name`  varchar(255) NULL ,
 `pwd`  varchar(255) NULL ,
+PRIMARY KEY (`id`)
+)
+;
+
+
+CREATE TABLE `vote` (
+`id`  int NOT NULL AUTO_INCREMENT ,
+`user_id`  int NULL ,
+`fight_time`  date NULL ,
+`create_time`  date NULL ,
 PRIMARY KEY (`id`)
 )
 ;

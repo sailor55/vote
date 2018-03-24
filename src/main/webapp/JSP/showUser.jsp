@@ -9,7 +9,7 @@
 <script type="text/javascript">
   function toregister() {
     $.ajax({
-      url : 'http://127.0.0.1:8080/usercontroller/toregister.json',
+      url: 'http://127.0.0.1:8080/user/toregister.json',
       type : 'get',
       contentType : 'application/json; charset=utf-8',
       dataType : 'json',

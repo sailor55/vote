@@ -1,6 +1,6 @@
 package sy.test;
 
-import java.util.List;
+import com.alibaba.fastjson.JSON;
 
 import org.apache.log4j.Logger;
 import org.junit.Test;
@@ -11,8 +11,6 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import sy.model.User;
 import sy.service.UserServiceI;
-
-import com.alibaba.fastjson.JSON;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = { "classpath:spring.xml", "classpath:spring-mybatis.xml" })
